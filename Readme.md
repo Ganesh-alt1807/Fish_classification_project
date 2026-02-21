@@ -39,6 +39,15 @@ Fish_classification_project/
 ├── requirements.txt
 └── README.md
 
+## 🧠 Workflow
+
+1. Dataset loading using ImageDataGenerator  
+2. Data preprocessing & augmentation  
+3. CNN model from scratch (baseline)  
+4. Transfer Learning with MobileNetV2  
+5. Model evaluation (accuracy, precision, recall, F1-score, confusion matrix)  
+6. Best model saved and used in Streamlit app  
+7. Streamlit web app for real-time predictions  
 
 ---
 
@@ -72,6 +81,23 @@ streamlit run app.py
 🎥 Demo Video
 
 👉 (Add your LinkedIn video link here)
+
+## ⚠️ Challenges Faced
+
+- Handling large model files (>100MB) restricted by GitHub  
+- Overfitting in CNN from scratch  
+- Environment setup issues (TensorFlow + venv on Windows)  
+- Improving model performance with transfer learning  
+
+**Solution:**  
+Used transfer learning, data augmentation, early stopping, and external storage for model files.
+
+## 🚀 Future Improvements
+
+- Fine-tune upper layers of MobileNetV2  
+- Try EfficientNetB0 for higher accuracy  
+- Add Grad-CAM for explainability  
+- Deploy the app using Streamlit Cloud  
 
 
 📌 Conclusion
